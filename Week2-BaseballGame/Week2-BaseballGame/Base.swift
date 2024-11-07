@@ -3,9 +3,11 @@ class BaseBallGame {
     let answer = GetAnswer()
     let userValue = GetUserValue()
     lazy var checkAnswer = CheckAnswer(getAnswer: answer, getUserValue: userValue)
+    var endPoint = 0
     
+  
     // 게임시작 -> 정답 생성
-    func initGame() {
+    func settingGame() {
         print("< 게임 시작 >")
         answer.getAnswser()
     }
@@ -31,6 +33,8 @@ class BaseBallGame {
                 print("알 수 없는 오류")
             }
         }
+        // 게임이 끝난 걸 표시
+        endPoint = 0
     }
 }
 

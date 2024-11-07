@@ -11,7 +11,7 @@
 import Foundation
 
 func levelThree() {
-    let playGame = BaseBallGame()
-    playGame.initGame()
-    playGame.startGame()
+//    let playGame = BaseBallGame()
+//    playGame.initGame()
+//    playGame.startGame()
 }

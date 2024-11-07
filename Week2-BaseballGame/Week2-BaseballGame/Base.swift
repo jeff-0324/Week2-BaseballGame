@@ -25,8 +25,6 @@ class BaseBallGame {
                 print("숫자 이외의 값을 입력하셨습니다.")
             } catch ErrorHandling.duplicateNumber {
                 print("중복된 값을 입력하셨습니다.")
-            } catch ErrorHandling.inputZero {
-                print("숫자 0을 입력하셨습니다.")
             } catch ErrorHandling.outOfRange {
                 print("3자릿수를 입력해주세요")
             } catch {

@@ -18,7 +18,5 @@ import Foundation
 
 // 실행을 위한 함수
 func levelTwo() {
-    let playGame = BaseBallGame()
-    playGame.initGame()
-    playGame.startGame()
+  
 }

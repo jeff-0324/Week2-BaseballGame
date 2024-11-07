@@ -1,4 +1,5 @@
 
+// 게임 기록을 위한 클래스
 class GameRecord {
     static var gameCount = 0
     static var tryCount = 0

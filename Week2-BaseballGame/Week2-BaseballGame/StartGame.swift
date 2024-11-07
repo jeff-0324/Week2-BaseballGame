@@ -1,4 +1,5 @@
 
+// 게임 시작을 위한 클래스
 class StartGame {
     let baseBallGame = BaseBallGame()
     let gameRecord = GameRecord()
@@ -42,4 +43,3 @@ class StartGame {
         roof()
     }
 }
-

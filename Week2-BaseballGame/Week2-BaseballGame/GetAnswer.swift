@@ -12,7 +12,7 @@ class GetAnswer {
     // 정답 생성 메서드
     func getAnswser()  {
         // 중복 값을 제거해주고 3개의 임의의 수를 저장(첫번째 자리에 "0"이 오면 제거)
-        while answerArray.count != 3 {
+        while answerArray.count < 3 {
             let randomValue = getRandomValue()
             if !answerArray.contains(randomValue) {
                 answerArray.append(randomValue)
@@ -21,6 +21,5 @@ class GetAnswer {
                 answerArray.removeFirst()
             }
         }
-        print(answerArray)  // - 테스트를 위한 프린트문
     }
 }

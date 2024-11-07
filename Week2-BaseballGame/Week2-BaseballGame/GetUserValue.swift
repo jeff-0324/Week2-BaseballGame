@@ -25,9 +25,8 @@ class GetUserValue {
         guard Set(input).count == 3 else {
             throw ErrorHandling.duplicateNumber
         }
+        // 유저 입력 값을 배열에 추가
         let result = input.map { Int(String($0))! }
         userArray.append(contentsOf: result)
-    
-        print(userArray) // - 테스트를 위함 프린트문
     }
 }

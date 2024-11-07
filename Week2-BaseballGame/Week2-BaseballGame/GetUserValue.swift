@@ -28,6 +28,6 @@ class GetUserValue {
         let result = input.map { Int(String($0))! }
         userArray.append(contentsOf: result)
     
-        print(userArray)
+        print(userArray) // - 테스트를 위함 프린트문
     }
 }

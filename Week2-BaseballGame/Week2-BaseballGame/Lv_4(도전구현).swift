@@ -20,5 +20,5 @@
 import Foundation
 
 func levelFour() {
-    StartGame().roof()
+//    StartGame().roof()
 }

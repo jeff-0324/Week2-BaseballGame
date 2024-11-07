@@ -34,10 +34,10 @@ class CheckAnswer {
     func printResult() {
         if ball == 0 && strike == 0 {
             // ball과 strike 수가 없는 경우 아웃
-            print("OUT")
+            print("[ OUT ]")
         } else if strike == getAnswer.answerArray.count {
             // strike 수가 정답의 갯수와 같은 경우
-            print("정답입니다.")
+            print(" 🏆 정답입니다. ")
         } else {
             print("[ \(strike) S, \(ball) B ]")
         }

@@ -22,5 +22,5 @@
 import Foundation
 
 func levelSix() {
-
+    StartGame().roof()
 }
